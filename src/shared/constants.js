@@ -1,0 +1,1 @@
+const URLALLFLIGHT = "https://public-api.adsbexchange.com/VirtualRadar/AircraftList.json"

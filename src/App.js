@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
-
+import React, { Component, Fragment } from 'react';
 import './App.css';
+import Main from './Main';
+import Header from './partials/Header';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      <div class="btn btn-primary">Dugme</div>
-      </div>
+      <Fragment>
+        <Header />
+        <Main />
+      </Fragment>
     );
   }
 }
