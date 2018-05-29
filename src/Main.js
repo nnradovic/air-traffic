@@ -9,7 +9,7 @@ import SingleFlight from './SingleFlight';
 const Main = () => {
     return (
         
-         <div className="container-fluid">
+         <div className="holder">
         <Route exact path="/" component={Home}/>
         <Route  path="/singleFlight/:id" component={SingleFlight}/>
          </div>

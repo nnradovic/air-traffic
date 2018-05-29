@@ -1,8 +1,10 @@
-.container-fluid{
+.holder{
     background-image: url('../src/img/mainbgd.jpg');
     padding: 20px 0px;
     background-position: center;
     background-size: cover;
-    height: 100%;;
+   
+   
+    
    
 }

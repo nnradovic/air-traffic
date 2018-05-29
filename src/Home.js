@@ -9,7 +9,8 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            flights: []
+            flights: [],
+            
         }
     }
 
@@ -41,15 +42,18 @@ class Home extends Component {
                             flights.sort(altitudeFilter)
                             refreshState(flights)
                         })
-                }, 600000,lat, lng);
+                }, 60000,lat, lng);
                 const refreshState = (flights) => {
+                    
                     this.setState({
-                        flights
+                        flights,
+                      
                     });
                 }
 
 
             })
+         
 
     }
 
@@ -72,21 +76,24 @@ class Home extends Component {
     }
 
     render() {
-        console.log(this.state.flights);
+        if (this.state.flights.length === 0 ) {
+            
+            return  <img id="loader" src={require("../src/img/loader.gif")} alt="Card image cap" />
+        }
         return ( 
             
-            <div className="container">
-                  <div class="col-12">
-                  <ul>
+            <div className="container-fluid">
+                  <div class="col-10 offset-1 col-md-8 offset-md-2" >
+                  <ul >
                       <li>Flight Bearing </li>
                       <li>Flight Number</li>
                       <li>Flight Altitude</li>
                  </ul>
-                {this.state.flights.map(flight=><SingleRowFlight flight={flight} key={flight.id}/>)}
+                {this.state.flights.map(flight=><SingleRowFlight flight={flight}  key={flight.id}/>)}
                   </div>
         
           
-            </div>
+             </div>
           
        
         )

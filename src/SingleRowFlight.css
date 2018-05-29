@@ -6,9 +6,11 @@ ul{
     padding: 5px;
     display: flex;
     justify-content: space-between;
-    text-decoration-style: none ;
     list-style: none;
     border:1px solid white;
+    display: flex;
+    align-items: center;
+  
 }
 
 
@@ -21,7 +23,19 @@ img{
 ul:hover{
     background-color: white;
     color:black;
+
+   
+  
+}
+
+a:hover{
     text-decoration: none;
-    list-style: none;
-    text-decoration-line: none;
+}
+
+#white{
+    color:white
+}
+
+#red{
+    color:red;
 }

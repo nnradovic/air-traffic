@@ -1,0 +1,13 @@
+.navbar {
+    padding: 30px 0px;
+    background: linear-gradient( #C12B38,#E93E48);
+    border-top: 4px solid black;
+}
+
+#copy{
+    font-size: 1rem;
+    text-shadow: 2px 2px black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}

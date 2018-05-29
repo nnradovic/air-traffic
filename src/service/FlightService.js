@@ -1,6 +1,6 @@
 import { fetchAll } from './apiService';
 import Flight from '../entites/entites';
-import { BASELOGO } from '../shared/constants';
+import { BASELOGO,URLSINGLEFLIGHT} from '../shared/constants';
 
 class FlightService {
 
@@ -15,7 +15,7 @@ class FlightService {
     }
 
     fetchSingleFlight = (icao) =>{
-        return fetch(`http://public-api.adsbexchange.com/VirtualRadar/AircraftList.json?fIcoQ=${icao}`)
+        return fetch(`${URLSINGLEFLIGHT}${icao}`)
         .then(response => response.json() )
         .then(flight => new Flight(flight.acList[0]))
     }
