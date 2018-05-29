@@ -16,3 +16,6 @@ ul{
   margin-bottom: 10%;
 }
 
+ul li::nth-letter(odd){
+  color:red;
+}
