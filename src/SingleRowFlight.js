@@ -12,7 +12,7 @@ const SingleRowFlight = ({ flight }) => {
         <Fragment>
 
             <Link id="single" to={`/singleFlight/${flight.icao}`}>
-                <ul>
+                <ul className="flight">
                     <li>{(flight.bearing === 'left') ? <img id="airplaneID" className="airplane" src={require("../src/img/airplaneleft.png")} /> : <img id="airplaneID" className="airplane" src={require("../src/img/airplaneright.png")} />} </li>
                     <li><span>{flight.icao}</span></li>
                     <li>{flight.altitude}</li>

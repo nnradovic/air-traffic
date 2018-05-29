@@ -20,7 +20,7 @@ img{
     height:50px;
 }
 
-ul:hover{
+.flight:hover{
     background-color: white;
     color:black;
 
