@@ -61,14 +61,12 @@ class SingleFlight extends Component {
 
             return <img id="loader" src={require("../src/img/loader.gif")} alt="Card image cap" />
         }
-
         return (
 
             <Fragment>
 
                 <div className="singleflight col-6 offset-3" >
                     <img id="logo" src={this.state.logoURL} alt="Card image cap" />
-
                     <h5 >Airplane Model</h5>
                     <p >{this.state.flight.airplaneModel}</p>
                     <h5 >Flight Number</h5>
