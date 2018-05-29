@@ -1,0 +1,27 @@
+.singleflight{
+    color:white;
+    font-weight: bold;
+    background-color: rgba(0,0,0, 0.5);
+    margin-top: 20px;
+    padding: 5px;
+    justify-content: center;
+    text-decoration-style: none ;
+    list-style: none;
+    border:1px solid white;
+    font-size: 24px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+   
+}
+
+#logo{
+    height: 100px;;
+}
+
+#loader{
+    height: 300px;
+}

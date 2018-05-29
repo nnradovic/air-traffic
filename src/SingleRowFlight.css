@@ -1,0 +1,27 @@
+ul{
+    color:white;
+    font-weight: bold;
+    background-color: rgba(0,0,0, 0.5);
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration-style: none ;
+    list-style: none;
+    border:1px solid white;
+}
+
+
+
+img{
+   
+    height:50px;
+}
+
+ul:hover{
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    list-style: none;
+    text-decoration-line: none;
+}
