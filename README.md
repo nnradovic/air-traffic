@@ -1,4 +1,4 @@
-#Air-Traffic-App - Job application
+## Air-Traffic-App - Job application
 
 
 
@@ -6,14 +6,13 @@
 
 -React.js
 
-#Used Framework
+## Used Framework
 
 -Bootstrap
 
-#Note
 
--Clone this respisotory to your computer.
--Go to cloned repository and type in terminal npm install or yarn
--After download dependesices just type npm start or yarn start
--Use Cross Domain - CORS plugins for FireFox, Chrome ect. to deal with 'Cross-Origin Request Blocked'
+Getting Started
+Clone this repository on your computer, then go to the directory, type in your terminal npm install or yarn, then type npm start or yarn start or just go to the link:
+Also you must install CORS addon in your browser and allow CORS.
+
 
